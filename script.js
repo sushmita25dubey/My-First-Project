@@ -12,7 +12,7 @@ loginLink.addEventListener('click', ()=> {
 });
 
 btnPopup.addEventListener('click', ()=> {
-    wrapper.classList.add('active-popup');
+    wrapper.classList.toggle('active-popup');
 });
 
 var pass = document.getElementById("password");
